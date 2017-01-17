@@ -16,17 +16,6 @@
   width: 180px;
 }
 
-.app-header {
-  background-color: #2fbcb2;
-  height: 120px;
-}
-
-.app-header-link-list {
-  margin-top: 40px;
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 1.33em;
-}
-
 .App-intro {
   font-size: large;
 }
@@ -61,15 +50,8 @@
   margin-bottom: 50px;
 }
 
-.video-container {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  width: 700px;
-  height: 500px;
-}
-
 .image-container {
-  background: url('./image-home.jpg') center no-repeat;
+  background: url('../image-home.jpg') center no-repeat;
   height: 700px;
   width: auto;
   background-size: cover;

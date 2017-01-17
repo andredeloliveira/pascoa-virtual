@@ -1,21 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './App.css'
-import YoutubeVideo from './YoutubeVideo'
-import ImageWithDescription from './ImageWithDescription'
+import Footer from '../layout/Footer'
+import AppMenu from '../layout/AppMenu'
+import YoutubeVideo from '../media/YoutubeVideo'
+import ImageWithDescription from '../media/ImageWithDescription'
 
-class Home extends React.Component {
-
+class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
+        <AppMenu />
         <YoutubeVideo />
         <ImageWithDescription overlayText="IMERSÃO" id="oquee" />
         <ImageWithDescription overlayText="IMERSÃO" id="comoparticipar" />
         <ImageWithDescription overlayText="IMERSÃO" id="sejaumparceiro" />
         <ImageWithDescription overlayText="IMERSÃO" id="sobrenos" />
+        <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default Home
+export default App;

@@ -1,5 +1,6 @@
 import React from 'react'
-import './App.css'
+import '../main/App.css'
+import './YoutubeVideo.css'
 
 class YoutubeVideo extends React.Component {
 
