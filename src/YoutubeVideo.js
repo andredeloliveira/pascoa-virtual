@@ -5,7 +5,7 @@ class YoutubeVideo extends React.Component {
 
   render() {
     return (
-      <div className="row">
+      <div className="row video-text-container">
         <div className="col-md-6">
         <h1 className="side-text-title">Esse é o título </h1>
         <div className="side-text-container">

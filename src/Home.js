@@ -9,10 +9,10 @@ class Home extends React.Component {
     return (
       <div>
         <YoutubeVideo />
-        <ImageWithDescription overlayText="IMERSÃO"/>
-        <ImageWithDescription overlayText="IMERSÃO"/>
-        <ImageWithDescription overlayText="IMERSÃO"/>
-
+        <ImageWithDescription overlayText="IMERSÃO" id="oquee" />
+        <ImageWithDescription overlayText="IMERSÃO" id="comoparticipar" />
+        <ImageWithDescription overlayText="IMERSÃO" id="sejaumparceiro" />
+        <ImageWithDescription overlayText="IMERSÃO" id="sobrenos" />
       </div>
     )
   }

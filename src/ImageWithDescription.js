@@ -8,7 +8,7 @@ class ImageWithDescription extends React.Component {
         <div className="image-container">
           <span className="overlay-text">{this.props.overlayText}</span>
         </div>
-        <div className="description-text">
+        <div className="description-text" id={this.props.id}>
           Aqui vai alguma explicação sobre como as coisas são comportadas e etc..
         </div>
       </div>
