@@ -1,10 +1,36 @@
 .app-header {
-  background-color: #2fbcb2;
+  background-color: #CCCCCC;
   height: 120px;
+  text-align: center;
 }
 
 .app-header-link-list {
   margin-top: 40px;
   font-family: 'Luckiest Guy', cursive;
   font-size: 1.33em;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #EA2D34;
+}
+
+@media screen and (max-width: 420px) {
+
+  .logo {
+    margin-left: 73px;
+  }
+
+  ul  {
+    background-color: #2fbcb2;
+    padding-top: 35px;
+  }
 }

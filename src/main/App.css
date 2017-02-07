@@ -1,3 +1,8 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
   margin: 0;
@@ -28,14 +33,17 @@
   margin-top: 150px;
 }
 
+
 .pascoa-button {
   height: 50px;
+  width: 200px;
   background-color: white;
   border-color: #2fbcb2;
   border-width: medium;
   border-radius: 20px;
   padding-top: 10px;
   margin-left: 10px;
+  margin-bottom: 10px;
   font-family: 'Luckiest Guy', cursive;
   font-size: 1.33em;
   color: #EA2D34;
@@ -43,6 +51,9 @@
 
 .pascoa-button:hover {
   background-color: #2fbcb2;
+  border: 0;
+  color: #EA2D34;
+
 }
 
 .side-text-container {

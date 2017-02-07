@@ -5,8 +5,8 @@ class AppMenu extends React.Component {
 
   render() {
     return (
-      <nav className="navbar navbar-default navbar-fixed-top app-header">
-        <div className="container">
+      <nav className="navbar navbar-default app-header">
+        <div className="container-fluid">
           <div className="navbar-header">
             <a className="navbar-brand" href="#">
               <img src="./PascoaVirtual.png" alt="logo" className="logo"/>

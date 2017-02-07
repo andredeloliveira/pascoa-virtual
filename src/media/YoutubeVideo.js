@@ -8,18 +8,15 @@ class YoutubeVideo extends React.Component {
     return (
       <div className="row video-text-container">
         <div className="col-md-6">
-        <h1 className="side-text-title">Esse é o título </h1>
+        <h1 className="side-text-title">{this.props.title}</h1>
         <div className="side-text-container">
-          <span className="description-text">Esse texto explica Esse texto explica
-          Esse texto explica
-          Esse texto explica Esse texto explica
-          Esse texto explica Esse texto explica</span>
+          {this.props.description}
         </div>
-        <button className="btn btn-default pascoa-button">SOU UM CAÇADOR > </button>
-        <button className="btn btn-default pascoa-button">SOU UM LOJISTA > </button>
+          <a className="btn btn-default pascoa-button" href="#">Baixe agora</a>
+          <a className="btn btn-default pascoa-button" href="#"> Seja um parceiro</a>
         </div>
         <div className="col-md-6">
-          <iframe className="video-container" src="https://www.youtube.com/embed/uCW7qfzYJYk" frameBorder="0" allowFullScreen></iframe>
+          <iframe className="video-container" src={this.props.videoURL} frameBorder="0" allowFullScreen></iframe>
         </div>
       </div>
     )

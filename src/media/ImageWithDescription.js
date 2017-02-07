@@ -1,10 +1,10 @@
 import React from 'react'
 import '../main/App.css'
-
+import './ImageWithDescription.css';
 class ImageWithDescription extends React.Component {
   render() {
     return (
-      <div>
+      <div className="transition-container">
         <div className="image-container">
           <span className="overlay-text">{this.props.overlayText}</span>
         </div>
