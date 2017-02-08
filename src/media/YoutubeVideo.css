@@ -7,6 +7,8 @@
 
 .side-text-title {
   font-family: 'Luckiest Guy', cursive;
+  margin-top: 20px;
+  padding-top: 5px;
 }
 
 .side-text-container {
@@ -17,7 +19,7 @@
 
 @media screen and (max-width: 420px) {
   .video-container {
-    width: 100%;
+    width: auto;
     height: 380px;
   }
 }

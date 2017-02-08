@@ -1,0 +1,12 @@
+.phones {
+  width: 548px;
+  height: 668px;
+}
+
+@media screen and (max-width: 420px) {
+
+  .phones {
+    width: 320px;
+    height: 390px;
+  }
+}

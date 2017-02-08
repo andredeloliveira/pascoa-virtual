@@ -1,8 +1,7 @@
 import React from 'react'
 import './About.css'
 import '../main/App.css'
-
-
+import VantagensC from '../functionalities/Vantagens'
 class About extends React.Component {
 
   registerEmail(event) {
@@ -12,7 +11,7 @@ class About extends React.Component {
 
   render() {
     return (
-      <div id={this.props.id} className="container-fluid">
+      <div id={this.props.id} className="container-fluid" id={this.props.id}>
         <div className="row">
           <div className="col-md-6">
             <h1 className="about-title">Utilize a Páscoa Virtual em seu estabelecimento</h1>
@@ -23,18 +22,7 @@ class About extends React.Component {
           </div>
           <div className="col-md-6 vantagens">
               <h1 className="send-email-text">Vantagens</h1>
-              <li>
-                Aumentar o tempo de permanência dos consumidores
-              </li>
-              <li>
-                Induzir fluxos de pessoas por corredores
-              </li>
-              <li>
-                Infantilizar o passeio dos visitantes no shopping
-              </li>
-              <li>
-                Diferencial competitivo tecnologico para as lojas na época da Páscoa
-              </li>
+              <VantagensC />
               <h3 className="send-email-text">Baixe mais informações</h3>
               <form onSubmit={this.registerEmail.bind(this)}>
                 <input type="text" className="send-email-input" name="email" placeholder="Insira seu e-mail"/>

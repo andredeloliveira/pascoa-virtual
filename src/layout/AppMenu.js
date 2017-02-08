@@ -15,7 +15,7 @@ class AppMenu extends React.Component {
           <ul className="nav navbar-nav app-header-link-list">
             <li><a href="#oquee">O QUE É</a></li>
             <li><a href="#comoparticipar">COMO PARTICIPAR</a></li>
-            <li><a href="#sejaumparceiro">SEJA UM PARCEIRO</a></li>
+            <li><a href="#sobrenos">SEJA UM PARCEIRO</a></li>
             <li><a href="#sobrenos">SOBRE NÓS</a></li>
           </ul>
         </div>
