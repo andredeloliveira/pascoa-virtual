@@ -7,7 +7,7 @@ class HalfImageWithDescription extends React.Component {
     return (
       <div className="row" id={this.props.id}>
         <div className="col-md-6">
-          <img src={this.props.imageURL} alt="Imagem Android e iPhone" className="phones"/>
+          <img src={this.props.imageURL} alt="Android e iPhone" className="phones"/>
         </div>
         <div className="col-md-6">
           <h1 className="side-text-title">{this.props.title}</h1>

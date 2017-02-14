@@ -3,8 +3,6 @@ import './App.css'
 import Footer from '../layout/Footer'
 import AppMenu from '../layout/AppMenu'
 import YoutubeVideo from '../media/YoutubeVideo'
-import MapAndDescription from '../media/MapAndDescription'
-import ImageWithDescription from '../media/ImageWithDescription'
 import HalfImageWithDescription from '../media/HalfImageWithDescription'
 import AppPlayStore from '../media/AppPlayStore'
 import About from '../about/About'
@@ -14,13 +12,12 @@ class App extends Component {
     /*video*/
     const videoTitle = 'Encontre ovos e coelhos virtuais pelo Shopping!';
     const videoDescription = 'A Páscoa Virtual utiliza-se da tecnologia de realidade aumentada, ' +
-    'a mesma de PokemonGO!';
-    const videoURL = 'https://www.youtube.com/embed/uCW7qfzYJYk';
+    'a mesma de PokémonGO!';
+    const videoURL = 'https://www.youtube.com/embed/36X03HES2Lg';
     /**/
     /*App/Playstore*/
-    const phonesTitle = 'Faça o download agora';
-    const phonesDescription = 'text text text texttext text text texttext text text texttext text text text';
-    const phonesImageURL = './phones.png';
+    const phonesTitle = 'Download';
+    const phonesImageURL = './phones.jpeg';
     /**/
     return (
       <div className="App">

@@ -1,0 +1,28 @@
+.countdown-container {
+  margin-left: 170px;
+
+}
+
+.square {
+  background-color: #2fbcb2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin: 1px;
+}
+
+.count-text {
+  margin-left: -5px;
+}
+
+
+@media screen and (max-width: 420px) {
+
+  .countdown-container {
+    margin-left: 70px;
+    width: 150px;
+  }
+
+}

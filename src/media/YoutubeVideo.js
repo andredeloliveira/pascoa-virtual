@@ -12,8 +12,8 @@ class YoutubeVideo extends React.Component {
         <div className="side-text-container">
           {this.props.description}
         </div>
-          <a className="btn btn-default pascoa-button" href="#">Baixe agora</a>
-          <a className="btn btn-default pascoa-button" href="#"> Seja um parceiro</a>
+          <a className="btn btn-default pascoa-button" href="#comoparticipar">Baixe agora</a>
+          <a className="btn btn-default pascoa-button" href="#sobrenos"> Seja um parceiro</a>
         </div>
         <div className="col-md-6">
           <iframe className="video-container" src={this.props.videoURL} frameBorder="0" allowFullScreen></iframe>
