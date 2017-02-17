@@ -1,16 +1,19 @@
 .countdown-container {
-  margin-left: 170px;
+  margin-left: 220px;
+  display: flex;
+  font-size: 0.8em;
 
 }
 
 .square {
-  background-color: #2fbcb2;
+  background-color: #3F1403;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-right: 15px;
   border-radius: 20px;
   margin: 1px;
+  color: #FFF;
 }
 
 .count-text {
@@ -21,8 +24,26 @@
 @media screen and (max-width: 420px) {
 
   .countdown-container {
-    margin-left: 70px;
-    width: 150px;
+    display: flex;
+    margin-left: 48px;
   }
 
+  .square {
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  .countdown-container {
+    display: flex;
+    margin-left: 7px;
+  }
+
+  .square {
+    padding-left: 10px;
+    padding-right: 5px;
+  }
 }

@@ -13,7 +13,7 @@ class App extends Component {
     const videoTitle = 'Encontre ovos e coelhos virtuais pelo Shopping!';
     const videoDescription = 'A Páscoa Virtual utiliza-se da tecnologia de realidade aumentada, ' +
     'a mesma de PokémonGO!';
-    const videoURL = 'https://www.youtube.com/embed/36X03HES2Lg';
+    const videoURL = 'https://www.youtube.com/embed/_2rwrEFiP20';
     /**/
     /*App/Playstore*/
     const phonesTitle = 'Download';

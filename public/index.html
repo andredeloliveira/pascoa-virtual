@@ -1,12 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="en_US">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="%PUBLIC_URL%">
+    <meta property="og:title" content="Páscoa Virtual">
+    <meta property="og:site_name" content="Páscoa Virtual">
+    <meta property="og:description" content="Não fique de fora da nova maneira de fazer a clássica caçada de ovos de Páscoa.">
+    <meta property="og:image" content="%PUBLIC_URL%/PascoaVirtual.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="600">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
@@ -21,8 +29,8 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Páscoa Virtual</title>
-  </head>
-  <body>
+    </head>
+    <body>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -34,5 +42,15 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
-  </body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92091022-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    </body>
 </html>

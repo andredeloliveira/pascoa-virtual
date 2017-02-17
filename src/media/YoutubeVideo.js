@@ -12,7 +12,7 @@ class YoutubeVideo extends React.Component {
         <div className="side-text-container">
           {this.props.description}
         </div>
-          <a className="btn btn-default pascoa-button" href="#comoparticipar">Baixe agora</a>
+          <a className="btn btn-default pascoa-button" href="#comoparticipar">Fazer download</a>
           <a className="btn btn-default pascoa-button" href="#sobrenos"> Seja um parceiro</a>
         </div>
         <div className="col-md-6">

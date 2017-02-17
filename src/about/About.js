@@ -17,7 +17,7 @@ class About extends React.Component {
               A Páscoa Virtual é uma ação de Marketing Tecnológica para Shoppings e lojas de chocolate
             </p>
             <h3 className="send-email-text">Baixe mais informações</h3>
-            <a href="./folder.pdf" target="_blank" className="btn btn-default pascoa-button">Baixar</a>
+            <a href="./folder.pdf" target="_blank" className="btn btn-default pascoa-button">Baixar agora</a>
           </div>
           <div className="col-md-6 vantagens">
               <h1 className="send-email-text">Vantagens</h1>

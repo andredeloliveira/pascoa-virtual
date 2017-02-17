@@ -57,7 +57,7 @@ class CountDown extends Component {
     this.stop();
   }
   getDateData(endDate) {
-    let diff = (Date.parse(new Date(endDate)) - Date.parse(new Date)) / 1000;
+    let diff = (Date.parse(new Date(endDate)) - Date.parse(new Date())) / 1000;
 
     if (diff <= 0) {
       return false;
@@ -101,22 +101,22 @@ class CountDown extends Component {
     }
     return (
         <div className="row countdown-container">
-            <div className="col-md-2 col-sm-2 square">
+            <div className="square">
               {this.leadingZeros(countDown.days)}
               <br />
               <span className="count-text">{days}</span>
             </div>
-            <div className="col-md-2 col-sm-2 square">
+            <div className="square">
               {this.leadingZeros(countDown.hours)}
               <br />
               <span className="count-text">{this.props.hours} </span>
             </div>
-            <div className="col-md-2 col-sm-2 square">
+            <div className="square">
               {this.leadingZeros(countDown.min)}
               <br />
               <span className="count-text">{this.props.mins}</span>
             </div>
-            <div className="col-md-2 col-sm-2 square">
+            <div className="square">
               {this.leadingZeros(countDown.sec)}
               <br />
               <span className="count-text">{this.props.segs}</span>

@@ -16,8 +16,10 @@ class AppMenu extends React.Component {
             <li><a href="#oquee">O QUE É</a></li>
             <li><a href="#comoparticipar">COMO PARTICIPAR</a></li>
             <li><a href="#sobrenos">SEJA UM PARCEIRO</a></li>
-            <li><a href="#sobrenos">SOBRE NÓS</a></li>
+            <li><a href="http://www.ambientesvirtuais.com" target="_blank">SOBRE NÓS</a></li>
           </ul>
+        </div>
+        <div className="chocolate">
         </div>
       </nav>
     )

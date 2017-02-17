@@ -33,7 +33,7 @@ body {
   height: 50px;
   width: 200px;
   background-color: white;
-  border-color: #2fbcb2;
+  border-color: #3F1403;
   border-width: medium;
   border-radius: 20px;
   padding-top: 10px;
@@ -45,7 +45,7 @@ body {
 }
 
 .pascoa-button:hover {
-  background-color: #2fbcb2;
+  background-color: #3F1403;
   border: 0;
   color: #EA2D34;
 
@@ -80,6 +80,7 @@ body {
 
 .side-text-title {
   margin-top: 15%;
+  color: #EA2D34;
 }
 
 

@@ -1,6 +1,7 @@
 .about-title {
   text-align: center;
   font-family: 'Luckiest Guy', cursive;
+  color: #EA2D34;
 }
 
 .about-text {
@@ -13,6 +14,7 @@
 
 .send-email-text {
   font-family: 'Luckiest Guy', cursive;
+  color: #EA2D34;
 }
 
 .send-email-input {
