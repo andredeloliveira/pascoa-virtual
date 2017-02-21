@@ -102,22 +102,22 @@ class CountDown extends Component {
     return (
         <div className="row countdown-container">
             <div className="square">
-              {this.leadingZeros(countDown.days)}
+              <span className="count-numbers">{this.leadingZeros(countDown.days)}</span>
               <br />
               <span className="count-text">{days}</span>
             </div>
             <div className="square">
-              {this.leadingZeros(countDown.hours)}
+              <span className="count-numbers">{this.leadingZeros(countDown.hours)}</span>
               <br />
               <span className="count-text">{this.props.hours} </span>
             </div>
             <div className="square">
-              {this.leadingZeros(countDown.min)}
+              <span className="count-numbers">{this.leadingZeros(countDown.min)}</span>
               <br />
               <span className="count-text">{this.props.mins}</span>
             </div>
             <div className="square">
-              {this.leadingZeros(countDown.sec)}
+              <span className="count-numbers">{this.leadingZeros(countDown.sec)}</span>
               <br />
               <span className="count-text">{this.props.segs}</span>
             </div>

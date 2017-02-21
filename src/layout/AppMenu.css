@@ -8,7 +8,7 @@
   margin-top: 40px;
   font-family: 'Luckiest Guy', cursive;
   font-size: 1.33em;
-   text-shadow: 4px 3px rgba(0,0,0, 0.5);
+  text-shadow: 4px 3px rgba(0,0,0, 0.5);
 }
 
 .logo {
@@ -25,12 +25,12 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #FFFFFF;
+	color: #EA2D34;
   font-size: 1.3em;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #EA2D34;
+	color: #FFFFFF;
 }
 
 @media screen and (max-width: 420px) {

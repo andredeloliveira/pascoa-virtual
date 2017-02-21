@@ -1,14 +1,11 @@
 .countdown-container {
-  margin-left: 220px;
+  margin-left: 180px;
   display: flex;
   font-size: 0.8em;
-
 }
 
 .square {
   background-color: #3F1403;
-  padding-top: 10px;
-  padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 20px;
@@ -20,18 +17,27 @@
   margin-left: -5px;
 }
 
+.count-numbers {
+  font-size: 3em;
+}
 
 @media screen and (max-width: 420px) {
 
   .countdown-container {
     display: flex;
-    margin-left: 48px;
+    margin-left: 0px;
   }
+
+  .count-numbers {
+    font-size: 3.2em;
+  }
+
 
   .square {
     padding-left: 10px;
     padding-right: 5px;
   }
+
 
 }
 
@@ -39,7 +45,11 @@
 
   .countdown-container {
     display: flex;
-    margin-left: 7px;
+    margin-left: 0px;
+  }
+
+  .count-numbers {
+    font-size: 2.4em;
   }
 
   .square {

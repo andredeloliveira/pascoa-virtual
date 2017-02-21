@@ -4,13 +4,27 @@ import Countdown from '../CountDown';
 
 class AppPlayStore extends React.Component {
 
-  render() {
+  _renderCountdown() {
     const messages = {
       days: { plural: ' dias', singular: ' dia'},
       hours: ' horas',
       mins: ' mins',
       segs: ' segs'
     }
+    const finalDate = new Date('2017-03-01T18:20:00.600Z');
+    if (new Date() > finalDate) {
+      return (
+        <div>
+          <a href=""><img src="./apple_store.png" className="appstore" alt="Link para download AppStore"  /></a>
+          <a href=""><img src="./play_store.png" className="playstore" alt="Link para download PlayStore"  /> </a>
+        </div>
+      )
+    } else {
+      return <Countdown date={finalDate} {...messages} onEnd={() => {}}/>
+    }
+  }
+  render() {
+
     return (
       <div className="container-fluid">
         <div className="row">
@@ -19,11 +33,10 @@ class AppPlayStore extends React.Component {
               Aguarde o lançamento da <strong>Páscoa Virtual</strong> para viver essa nova aventura de Páscoa
               <div className="countdown">
                 <div>Disponível em apenas: </div>
-                <Countdown date={new Date('2017-03-01T13:37:23.600Z')} {...messages} onEnd={() => {}}/>
+                {this._renderCountdown()}
               </div>
             </div>
-            <a href=""><img src="./apple_store.png" className="appstore" alt="Link para download AppStore"  /></a>
-            <a href=""><img src="./play_store.png" className="playstore" alt="Link para download PlayStore"  /> </a>
+
           </div>
         </div>
       </div>

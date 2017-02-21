@@ -13,10 +13,10 @@ class AppMenu extends React.Component {
             </a>
           </div>
           <ul className="nav navbar-nav app-header-link-list">
-            <li><a href="#oquee">O QUE É</a></li>
-            <li><a href="#comoparticipar">COMO PARTICIPAR</a></li>
-            <li><a href="#sobrenos">SEJA UM PARCEIRO</a></li>
-            <li><a href="http://www.ambientesvirtuais.com" target="_blank">SOBRE NÓS</a></li>
+            <li><a href="#oquee">o que é</a></li>
+            <li><a href="#comoparticipar">como participar</a></li>
+            <li><a href="#sobrenos">seja um parceiro</a></li>
+            <li><a href="http://www.ambientesvirtuais.com" target="_blank">sobre nós</a></li>
           </ul>
         </div>
         <div className="chocolate">
